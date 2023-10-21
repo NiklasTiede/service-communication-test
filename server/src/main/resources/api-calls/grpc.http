@@ -1,0 +1,9 @@
+
+###
+GRPC localhost:6565/post.PostService/Post
+Content-Type: application/grpc+proto
+
+{
+  "name": "Niklas"
+}
+

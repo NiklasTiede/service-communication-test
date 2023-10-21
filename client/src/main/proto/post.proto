@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.server.grpcexample";
+
+
+package post;
+
+service PostService {
+  rpc Post (PostRequest) returns (PostResponse);
+}
+
+message PostRequest {
+  string name = 1;
+}
+
+message PostResponse {
+  string message = 1;
+}
+
+

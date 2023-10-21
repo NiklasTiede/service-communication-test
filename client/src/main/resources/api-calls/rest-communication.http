@@ -1,0 +1,7 @@
+
+### normal rest http request, server emulates php service (snake_case strategy)
+GET http://localhost:8082/send-http-request
+
+###
+GET http://localhost:8082/send-grpc-request
+
